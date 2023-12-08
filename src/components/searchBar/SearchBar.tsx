@@ -1,3 +1,4 @@
+import ".././Header/Header.css";
 function SearchBar() {
   return (
     <>
@@ -5,8 +6,8 @@ function SearchBar() {
         <div className="mx-auto w-[1280px] px-[20px] py-3  ">
           <div className="flex justify-between">
             <div className="flex">
-              <p className="text-[25px] font-[700]">
-                <span className=" border border-b-red-600  px-[15px] py-[4px] text-[25px]  text-[#0AAD0A] ">
+              <p className="text-[25px] hover:text-blue-500  font-[700]">
+                <span className=" buttunEffect border rounded-r-xl    hover:text-blue-700 hover:bg-orange-600 px-[15px] py-[4px] text-[25px]  text-[#F9D171] ">
                   ECOMMERCE
                 </span>{" "}
                 Shopper

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Button from "../../Buttun/Button";
+import MyButton from "../../Buttun/MyButton";
 
 function Product() {
   const [product, setProduct] = useState([]);
@@ -11,7 +13,7 @@ function Product() {
   return (
     <>
       <section>
-        <div className="container py-2 px-5 text-center   mx-auto w-[1280px] bg-[#EDF1FF] ">
+        <div className="container py-[50px] px-5 text-center   mx-auto w-[1280px] bg-[#EDF1FF] ">
           <div className="  flex justify-evenly gap-[20px]  flex-wrap items-center">
             {product.map((item) => (
               <div key={item.id} className=" w-[300px] border p-3 shadow-2xl">
@@ -21,7 +23,9 @@ function Product() {
                 <img src={item.thumbnail} className="w-full h-[200px]" alt="" />
                 <div className="flex justify-between py-2">
                   <p>{item.brand}</p>
-                  <span className="text-orange-400">Rating: {item.rating}</span>
+
+                  <MyButton />
+
                   <p>Price: ${item.price} </p>
                 </div>
               </div>

@@ -6,7 +6,7 @@ import Button from "../Buttun/Button";
 function MyCarousel() {
   return (
     <>
-      <div className=" container w-[1200px]">
+      <div className=" container w-[1200px]    ">
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
           <div className="carousel-indicators ">
             <button

@@ -1,4 +1,5 @@
 import MyCarousel from "../../slider/MyCarousel";
+
 import "./Home.css";
 function Home() {
   return (

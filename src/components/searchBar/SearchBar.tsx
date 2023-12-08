@@ -2,7 +2,7 @@ function SearchBar() {
   return (
     <>
       <section>
-        <div className="mx-auto w-[1280px] py-3  ">
+        <div className="mx-auto w-[1280px] px-[20px] py-3  ">
           <div className="flex justify-between">
             <div className="flex">
               <p className="text-[25px] font-[700]">

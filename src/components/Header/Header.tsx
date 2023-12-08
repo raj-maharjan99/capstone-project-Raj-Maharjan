@@ -7,7 +7,7 @@ function Header() {
       {" "}
       <section>
         <SearchBar />
-        <div className="mx-auto w-[1280px] py-3 border-b-2 ">
+        <div className="mx-auto w-[1280px]  px-[50px] py-3 border-b-2 ">
           <div className="flex justify-between gap-[20px] items-center">
             <button className="bg-[#0AAD0A] border rounded-[10px] font-[500] flex gap-2 text-white py-2 px-6">
               All Products

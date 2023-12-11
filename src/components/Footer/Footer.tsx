@@ -8,6 +8,7 @@ import {
   BsInstagram,
   BsTwitter,
 } from "react-icons/bs";
+import DropdownMenu from "./DropdownMenu";
 
 function Footers() {
   return (
@@ -21,6 +22,7 @@ function Footers() {
               className="w-[100px]"
             />
           </div>
+
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
               <Footer.Title title="about" />

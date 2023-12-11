@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ".././Header/Header.css";
 function SearchBar() {
   return (
@@ -7,9 +8,12 @@ function SearchBar() {
           <div className="flex justify-between">
             <div className="flex">
               <p className="text-[25px] hover:text-blue-500  font-[700]">
-                <span className=" buttunEffect border rounded-r-xl    hover:text-blue-700 hover:bg-orange-600 px-[15px] py-[4px] text-[25px]  text-[#F9D171] ">
-                  ECOMMERCE
-                </span>{" "}
+                <Link to={"/"}>
+                  {" "}
+                  <span className=" buttunEffect border rounded-r-xl    hover:text-blue-700 hover:bg-orange-600 px-[15px] py-[4px] text-[25px]  text-[#F9D171] ">
+                    ECOMMERCE
+                  </span>{" "}
+                </Link>
                 Shopper
               </p>
             </div>

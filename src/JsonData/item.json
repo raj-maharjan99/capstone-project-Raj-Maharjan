@@ -1709,24 +1709,6 @@
         "https://i.dummyjson.com/data/products/30/3.jpg",
         "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
       ]
-    },
-    {
-      "id": 94,
-      "title": "Vans Classic Gum-Shoe",
-      "description": "Authentic  Authentic Pro Gum Shoes",
-      "price": 28,
-      "discountPercentage": 10.1,
-      "rating": 4.92,
-      "stock": 54,
-      "brand": "Vans",
-      "category": "shoes",
-      "thumbnail": "https://di2ponv0v5otw.cloudfront.net/posts/2022/07/26/62e03ae8efd0e420cf0ff7fe/m_62e03b27f644e5ccfb63daf4.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/30/1.jpg",
-        "https://i.dummyjson.com/data/products/30/2.jpg",
-        "https://i.dummyjson.com/data/products/30/3.jpg",
-        "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
-      ]
     }
   ]
 }

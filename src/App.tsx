@@ -4,17 +4,22 @@ import Home from "./components/Home/Home";
 // import Product from "./pages/Product/Product";
 import Footers from "./components/Footer/Footer";
 import Smartphone from "./pages/Smartphone/Smartphone";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
     <>
-      <Header />
-      {/* <Home /> */}
+      {" "}
+      <div>
+        <Header />
+        {/* <Home /> */}
 
-      {/* <Smartphone /> */}
+        {/* <Smartphone /> */}
 
-      {/* <Product /> <br />  its only for test */}
-      <Footers />
+        {/* <Product /> <br />  its only for test */}
+
+        <Footers />
+      </div>
     </>
   );
 }

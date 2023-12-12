@@ -6,6 +6,7 @@ import Home from "../Home/Home";
 import Product from "../../pages/Product/Product";
 import Smartphone from "../../pages/Smartphone/Smartphone";
 import DropdownMenu from "../Footer/DropdownMenu";
+import Cart from "../Cart/Cart";
 
 function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -105,7 +106,9 @@ font-[500] flex gap-2 text-white py-2 px-6"
                     <li className="hover:bg-green-600">Clothes</li>
                   </ul>
                 </li>
-                <li className="navEffect">Account</li>
+                <li className="navEffect">
+                  <Link to={"/cart"}>Cart</Link>
+                </li>
                 <li className="buttunEffect flex gap-1">
                   {" "}
                   <span>About</span> <span>{angleIcon}</span>
@@ -130,6 +133,7 @@ font-[500] flex gap-2 text-white py-2 px-6"
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/smartphone" element={<Smartphone />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );
